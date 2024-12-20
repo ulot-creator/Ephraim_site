@@ -6,13 +6,12 @@
     background-color: var(--background_dark);
     margin: 0;
     color: white;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
 }
 
 nav{
-    height: 8vh;
+    height: 5vh;
     width: 100%;
-
 }
 
 .flex{
@@ -27,6 +26,27 @@ nav{
     align-content: center;
 }
 
+.align_self_center{
+    align-self: center;
+}
+
 .padding_1{
     padding: 0 1rem;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+main{
+    height: 95vh;
+}
+
+.container{
+    margin: 0 2rem;
+
 }
