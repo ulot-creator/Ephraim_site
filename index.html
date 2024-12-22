@@ -8,43 +8,48 @@
 </head>
 <body>
     <nav class="flex justify_center ">
+        
         <ul class="flex justify_center align_center">
-            <li class="nav_btn padding_1 align_self_center">
-                <a href="#about_me">About Me</a>
+            <li class="nav_btn padding_x_1 align_self_center">
+                <a href="#about_me" class="text_bigger">About Me</a>
             </li>
-            <li class="nav_btn padding_1 align_self_center">
-                <a href="#skills">Skills</a>
+            <li class="nav_btn padding_x_1 align_self_center">
+                <a href="#skills" class="text_bigger">Skills</a>
             </li>
-            <li class="nav_btn padding_1 align_self_center">
-                <a href="#">Ulot</a>
+            <li class="nav_btn padding_x_1 align_self_center">
+                <a href="#" class="text_bigger">Ulot</a>
             </li>
-            <li class="nav_btn padding_1 align_self_center">
-                <a href="#works">Works</a>
+            <li class="nav_btn padding_x_1 align_self_center">
+                <a href="#works" class="text_bigger">Works</a>
             </li>
-            <li class="nav_btn padding_1 align_self_center">
-                <a href="#contact_me">Contact Me!</a>
+            <li class="nav_btn padding_x_1 align_self_center">
+                <a href="#contact_me" class="text_bigger">Contact Me!</a>
             </li>
         </ul>
     </nav>
-    <main class="container flex">
+    <main class="container flex padding_y_3">
+        <!-- For the mobile version just shrink the image or make it go away altogether. We'll test both out -->
         <div class="span_6">
-           <div class="flex">
+           <div class="">
                 <div class="intro">
-                    Hey there!
+                    <h1 class="t_4 ">Hey there!</h1>
                 </div>
                 <div class="intro">
-                    I am Ephraim
+                    <h1 class="t_4 margin_y_1">I am Ephraim,</h1>
                 </div>
                 <div class="intro wiggle">
-                    Front End Developer
+                    <h1 class="show t_4">Front End Developer</h1>
+                    <h1 class="hidden t_4">UI/UX Designer</h1>
                 </div>
            </div>
-           <button>
-            Let's get in touch
-        </button>
-        <button>
-            <a href="cv link" download>Download my cv</a>
-        </button>
+           <div class="padding_y_2">
+                <button class="btn margin_x_1 border_0" style="box-shadow: 10px 10px 8px 10px #888888;">
+                    <a href="" class="t_2">Let's get in touch</a>
+                </button>
+                <button class="btn">
+                    <a href="cv link" class="t_2 shadow border_0" download>Download my cv</a>
+                </button>
+           </div>
         </div>
         <div class="span_6 flex">
            <figure>

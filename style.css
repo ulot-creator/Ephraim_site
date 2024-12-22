@@ -30,23 +30,70 @@ nav{
     align-self: center;
 }
 
-.padding_1{
+.padding_x_1{
     padding: 0 1rem;
+}
+
+.padding_y_2{
+    padding: 2rem 0;
+}
+
+.padding_y_3{
+    padding: 3rem 0;
+}
+
+.margin_x_1{
+    margin: 0 1rem;
+}
+
+.margin_y_1{
+    margin: 1rem 0;
 }
 
 nav ul li{
     list-style: none;
 }
 
-nav ul li a{
+a{
     text-decoration: none;
 }
 
 main{
     height: 95vh;
+    justify-content: space-around;
 }
 
 .container{
     margin: 0 2rem;
 
+}
+
+.hidden{
+    display: none;
+}
+
+.t_4{
+    font-size: 4rem;
+}
+
+.t_2{
+    font-size: 1rem;
+}
+
+
+.btn{
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+
+.text_bigger{
+    font-size: 1.3rem;
+}
+
+.shadow{
+    box-shadow: 0 2 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+.border_0{
+    border: 0;
 }
