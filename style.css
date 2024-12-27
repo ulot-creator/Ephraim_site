@@ -1,13 +1,13 @@
 :root{
     /* --background_dark: #020B10; */
-    --background_dark: #020b10;
+    --background_dark: #020b10; 
 }
 
 *{
     background-color: var(--background_dark);
     margin: 0;
     color: rgb(198, 202, 230);
-    /* outline: 1px solid red; */
+    outline: 1px solid red;
 }
 
 nav{
@@ -63,12 +63,16 @@ nav{
     margin: 4rem 0;
 }
 
+.margin_y_2{
+    margin: 2rem 0;
+}
+
 nav ul li{
     list-style: none;
 }
 
 .nav_link:hover{
-    color: black;
+    color: #fff;
 }
 
 a{
@@ -76,7 +80,7 @@ a{
 }
 
 main{
-    height: 85vh;
+    height: 90vh;
     width: 100%;
     justify-content: space-around;
     border-bottom: 1px solid #03131C;
@@ -92,6 +96,7 @@ main{
 .title{
     display: flex;
     justify-self: center;
+    border-bottom: 1px solid rgb(198, 202, 230);
 }
 
 .hidden{
@@ -106,10 +111,19 @@ main{
     font-size: 1rem;
 }
 
+.t_3{
+    font-size: 3rem;
+}
+
 
 .btn{
     padding: 0.6rem 1rem;
     border-radius: 1rem;
+    
+}
+
+.btn, .link{
+    background-color: #051822;
 }
 
 .btn:hover .link, .btn:hover{
@@ -158,8 +172,11 @@ main{
     width: 33.3%;
 }
 
+.span_5{
+    width: 41.5%;
+}
 
-
+/* =========================  ANIMATIONS  ======================== */
 
 @keyframes blink {
     0% {
