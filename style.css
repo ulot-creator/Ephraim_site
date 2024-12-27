@@ -1,12 +1,12 @@
 :root{
     /* --background_dark: #020B10; */
-    --background_dark: #C8E2EE;
+    --background_dark: #020b10;
 }
 
 *{
     background-color: var(--background_dark);
     margin: 0;
-    color: rgb(45, 49, 48);
+    color: rgb(198, 202, 230);
     /* outline: 1px solid red; */
 }
 
@@ -35,6 +35,10 @@ nav{
     padding: 0 1rem;
 }
 
+.padding_y_1{
+    padding: 1rem 0;
+}
+
 .padding_y_2{
     padding: 2rem 0;
 }
@@ -43,12 +47,20 @@ nav{
     padding: 3rem 0;
 }
 
+.padding_y_4{
+    padding: 4rem 0 0 0;
+}   
+
 .margin_x_1{
     margin: 0 1rem;
 }
 
 .margin_y_1{
     margin: 1rem 0;
+}
+
+.margin_y_4{
+    margin: 4rem 0;
 }
 
 nav ul li{
@@ -65,7 +77,9 @@ a{
 
 main{
     height: 85vh;
+    width: 100%;
     justify-content: space-around;
+    border-bottom: 1px solid #03131C;
 }
 
 .container{
@@ -73,6 +87,11 @@ main{
     display: flex;
     justify-self: center;
 
+}
+
+.title{
+    display: flex;
+    justify-self: center;
 }
 
 .hidden{
@@ -122,10 +141,6 @@ main{
     overflow: hidden;
     white-space: nowrap;
     animation: typewritter 7s 2;
-}
-
-.floating_cursor{   
-    
 }
 
 .floating_cursor::after{
