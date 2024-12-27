@@ -6,7 +6,7 @@
 *{
     background-color: var(--background_dark);
     margin: 0;
-    color: black;
+    color: rgb(45, 49, 48);
     /* outline: 1px solid red; */
 }
 
@@ -55,17 +55,23 @@ nav ul li{
     list-style: none;
 }
 
+.nav_link:hover{
+    color: black;
+}
+
 a{
     text-decoration: none;
 }
 
 main{
-    height: 95vh;
+    height: 85vh;
     justify-content: space-around;
 }
 
 .container{
-    margin: 0 2rem;
+    width: 90%;
+    display: flex;
+    justify-self: center;
 
 }
 
@@ -85,6 +91,11 @@ main{
 .btn{
     padding: 0.6rem 1rem;
     border-radius: 1rem;
+}
+
+.btn:hover .link, .btn:hover{
+    background-color: #0e364e;
+    color: white;
 }
 
 .text_bigger{
@@ -109,11 +120,11 @@ main{
 .testing_width{
     width: 100%;
     overflow: hidden;
-    animation: typewritter 7s infinite;
     white-space: nowrap;
+    animation: typewritter 7s 2;
 }
 
-.floating_cursor{
+.floating_cursor{   
     
 }
 
@@ -123,6 +134,17 @@ main{
     border: 1px solid #000;
     animation: blink infinite 0.8s;
 }
+
+.span_6{
+    width: 66.7%;
+}
+
+.span_4{
+    width: 33.3%;
+}
+
+
+
 
 @keyframes blink {
     0% {
