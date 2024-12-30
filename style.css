@@ -8,7 +8,7 @@
 *{
     margin: 0;
     color: rgb(198, 202, 230);
-    /* outline: 1px solid red; */
+    outline: 1px solid red;
 }
 
 .w_100{
@@ -97,6 +97,10 @@ nav{
 
 .little_margin{
     margin: 0.2rem 0;
+}
+
+.small_margin{
+    margin: 0.5rem 0;
 }
 
 .margin_y_1{
@@ -206,13 +210,17 @@ main{
     
 }
 
-.btn, .link{
+.btn_background{
     background-color: #051822;
 }
 
-.btn:hover .link, .btn:hover{
+.btn_background:hover .link, .btn_background:hover{
     background-color: #0e364e;
     color: white;
+}
+
+.background_highlight:hover{
+    background-color: #76050c;
 }
 
 .text_bigger{
@@ -282,7 +290,6 @@ main{
 .poppins{
     font-family: "Poppins", serif;
     font-weight: 300;
-  font-style: normal;
 }
 
 /* make a progress bar for 80% maroon with another oval being what is meant to be 100%*/
