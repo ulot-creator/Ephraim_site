@@ -4,31 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playwrite+AU+VIC+Guides&display=swap" rel="stylesheet">
+
     <title>Ephraim Orimolade</title>
 </head>
-<body>
-    <nav class="flex justify_center padding_y_1">       
+<body class="background_lighter_dark">
+    <nav class="flex justify_center padding_y_1 background_dark">       
         <ul class="flex justify_center align_center">
             <li class="nav_btn padding_x_1 align_self_center">
-                <a href="#about_me" class="text_bigger nav_link">About Me</a>
+                <a href="#about_me" class="t_2 nav_link">About Me</a>
             </li>
             <li class="nav_btn padding_x_1 align_self_center">
                 <a href="#skills" class="text_bigger nav_link">Skills</a>
             </li>
             <li class="nav_btn padding_x_1 align_self_center">
-                <a href="#" class="text_bigger nav_link">Ulot</a>
+                <a href="#" class="text_bigger nav_link playwrite_au_vic_guides_regular">Ulot</a>
             </li>
             <li class="nav_btn padding_x_1 align_self_center">
                 <a href="#works" class="text_bigger nav_link">Works</a>
             </li>
             <li class="nav_btn padding_x_1 align_self_center">
-                <a href="#contact_me" class="text_bigger nav_link">Contact Me!</a>
+                <a href="#contact_me" class="t_2 nav_link">Contact Me!</a>
             </li>
         </ul>
     </nav>
-    <main>
+    <main class="background_dark">
         <!-- For the mobile version just shrink the image or make it go away altogether. We'll test both out -->
-       <div class="container flex padding_y_4">
+       <div class="container flex justify_self_center padding_y_4">
         <div class="span_6 ">
             <div class="">
                  <div class="intro">
@@ -58,8 +64,11 @@
          </div>
        </div>
     </main>
-    <h1 class="title margin_y_2 t_3">About Me</h1>
-    <section id="about_me" class="container padding_y_1">
+
+    <div class="background_lighter_dark">
+        
+    <h1 class="title margin_y_2 t_3 ">About Me</h1>
+    <section id="about_me" class="container flex justify_self_center padding_y_1">
         
         <div class="flex">
             <div class="span_4">
@@ -68,21 +77,32 @@
                 </figure>
             </div>
             <div class="span_6 left_auto">
-                <h3 class="t_2_5">
+                <h3 class="t_2_5 poppins">
                     I'm Ephraim Orimolade, a freelance UI/UX designer and front end developer based in the heart of Nigeria, Abuja. I love  turning ideas into beautiful, functional websites. I'm all about finding the sweet spot where design and code meet to create smooth, user-friendly experiences that would make customers keep clicking. 
                     Outside of work, you'll probably find me checking out the latest design trends, trying out new tech, or enjoying the outdoors. I'm always looking for new projects to dive into, so let's connect and bring something awesome to life!
                 </h3>
-                <button class="btn border_0 shadow_1 flex justify_self_end action_call" style="margin-right: 5rem; margin-top: 1.6rem;">
-                    <a href="" class="t_2 link">Contact me!</a>
+                <button class="btn border_0 shadow_1 flex justify_self_end" style="margin-right: 5rem; margin-top: 1.6rem;">
+                    <a href="#" class="t_2">Contact me!</a>
                 </button>
             </div>
         </div>
     
     </section>
+    </div>
 
-    <section id="skills" class="">
-        <div class="container">
-        </div>
-    </section>
+
+    <div class="background_lighter_dark">
+        <h1 class="title margin_y_2 t_3 poppins">My Skills</h1>
+        <section id="skills" class="">
+            <div class="container container flex justify_self_center">
+                <h3 class="poppins flex justify_self_center">
+                    My proficiency level in each major skill that would make your company stand out from its peers
+                </h3>
+            </div>
+            <div class="background_almost_light flex justify_self_center">
+
+            </div>   
+        </section>
+    </div>
 </body>
 </html>

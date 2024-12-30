@@ -1,15 +1,31 @@
 :root{
     /* --background_dark: #020B10; */
     --background_dark: #020b10; 
+    --background_lighter_dark: #2D383E;
 }
 
 *{
-    background-color: var(--background_dark);
     margin: 0;
     color: rgb(198, 202, 230);
-    /* outline: 1px solid red; */
+    outline: 1px solid red;
 }
 
+.background_dark{
+    background-color: var(--background_dark);
+}
+
+.background_lighter_dark{
+    background-color: var(--background_lighter_dark);
+}
+
+.background_almost_light{
+    background: rgba(255, 255, 255, 0.02);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.9px);
+    -webkit-backdrop-filter: blur(6.9px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
 nav{
     height: 5vh;
     width: 100%;
@@ -100,8 +116,6 @@ main{
 
 .container{
     width: 90%;
-    display: flex;
-    justify-self: center;
 
 }
 
@@ -206,6 +220,19 @@ main{
     width: 41.5%;
 }
 
+.roboto{
+    font-family: 'Roboto', sans-serif;
+}
+
+.playwrite_au_vic_guides_regular {
+    font-family: "Playwrite AU VIC Guides", serif;
+}
+
+.poppins{
+    font-family: "Poppins", serif;
+    font-weight: 300;
+  font-style: normal;
+}
 /* =========================  ANIMATIONS  ======================== */
 
 @keyframes blink {
