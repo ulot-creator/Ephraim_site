@@ -46,6 +46,10 @@ nav{
     justify-content: center;
 }
 
+.justify_between{
+    justify-content:space-between;
+}
+
 .justify_self_center{
     justify-self: center;
 }
@@ -106,6 +110,18 @@ nav{
     margin-bottom: 5rem;
 }
 
+.mb_4{
+    margin-bottom: 4rem;
+}
+
+.mt_4{
+    margin-top: 4rem;
+}
+
+.ml_2{
+    margin-left: 2rem;
+}
+
 .left_auto{
     margin-left: auto;
 }
@@ -144,6 +160,10 @@ main{
     border-bottom: 1px solid rgb(198, 202, 230);
     font-family: "Inter", serif;
     font-weight: 200;
+}
+
+.border_left_1{
+    border-left: 2px solid #8F0B13;
 }
 
 .hidden{
@@ -230,6 +250,10 @@ main{
     width: 50%;
 }
 
+.three_quarters{
+    width: 75%;
+}
+
 .span_4{
     width: 33.3%;
 }
@@ -255,7 +279,7 @@ main{
 /* make a progress bar for 80% maroon with another oval being what is meant to be 100%*/
 .progress_bar{
     position: relative;
-    width: 80%;
+    width: 100%;
     height: 1rem;
     background-color: #03131C;
     border-radius: 1rem;
@@ -265,12 +289,32 @@ main{
 .progress{
     position: absolute;
     height: 100%;
-    background-color: #800000;
+    background-color: #8F0B13;
     border-radius: 1rem;
 }
 
 .progress_92{
     width: 92%;
+}
+
+.progress_80{
+    width: 80%;
+}
+
+.progress_90{
+    width: 90%;
+}
+
+.progress_75{
+    width: 75%;
+}
+
+.progress_70{
+    width: 70%;
+}
+
+.progress_60{
+    width: 60%;
 }
 
 /* =========================  ANIMATIONS  ======================== */
