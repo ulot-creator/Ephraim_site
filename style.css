@@ -7,7 +7,11 @@
 *{
     margin: 0;
     color: rgb(198, 202, 230);
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
+}
+
+.w_100{
+    width: 100%;
 }
 
 .background_dark{
@@ -20,11 +24,10 @@
 
 .background_almost_light{
     background: rgba(255, 255, 255, 0.02);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
     backdrop-filter: blur(6.9px);
     -webkit-backdrop-filter: blur(6.9px);
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 1rem;
 }
 nav{
     height: 5vh;
@@ -33,6 +36,10 @@ nav{
 
 .flex{
     display: flex;
+}
+
+.flex_column{
+    flex-direction: column;
 }
 
 .justify_center{
@@ -79,6 +86,10 @@ nav{
     margin: 0 1rem;
 }
 
+.little_margin{
+    margin: 0.2rem 0;
+}
+
 .margin_y_1{
     margin: 1rem 0;
 }
@@ -91,8 +102,17 @@ nav{
     margin: 2rem 0;
 }
 
+.mb_5{
+    margin-bottom: 5rem;
+}
+
 .left_auto{
     margin-left: auto;
+}
+
+.mid_auto{
+    margin-left: auto;
+    margin-right: auto;
 }
 
 nav ul li{
@@ -116,13 +136,14 @@ main{
 
 .container{
     width: 90%;
-
 }
 
 .title{
     display: flex;
     justify-self: center;
     border-bottom: 1px solid rgb(198, 202, 230);
+    font-family: "Inter", serif;
+    font-weight: 200;
 }
 
 .hidden{
@@ -138,7 +159,7 @@ main{
 }
 
 .t_2_5{
-    font-size: 1.8rem;
+    font-size: 1.5rem;
 }
 
 .t_mid{
@@ -162,16 +183,6 @@ main{
 
 .btn:hover .link, .btn:hover{
     background-color: #0e364e;
-    color: white;
-}
-
-.action_call, .action_call .link{
-    background-color: rgb(155, 211, 148);
-    color:#020b10;
-}
-
-.action_call:hover .link, .action_call:hover{
-    background-color: #0e4e1e;
     color: white;
 }
 
@@ -204,12 +215,19 @@ main{
 .floating_cursor::after{
     margin-left: 5px;
     content: "";
-    border: 1px solid #000;
+    border: 1px solid rgb(198, 202, 230);
     animation: blink infinite 0.8s;
 }
 
+.full_width{
+    width: 100%;
+}
 .span_6{
     width: 66.7%;
+}
+
+.half_width{
+    width: 50%;
 }
 
 .span_4{
@@ -233,6 +251,28 @@ main{
     font-weight: 300;
   font-style: normal;
 }
+
+/* make a progress bar for 80% maroon with another oval being what is meant to be 100%*/
+.progress_bar{
+    position: relative;
+    width: 80%;
+    height: 1rem;
+    background-color: #03131C;
+    border-radius: 1rem;
+}
+
+/* make the progress class with 80% */
+.progress{
+    position: absolute;
+    height: 100%;
+    background-color: #800000;
+    border-radius: 1rem;
+}
+
+.progress_92{
+    width: 92%;
+}
+
 /* =========================  ANIMATIONS  ======================== */
 
 @keyframes blink {
