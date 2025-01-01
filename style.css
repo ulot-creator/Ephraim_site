@@ -8,7 +8,7 @@
 *{
     margin: 0;
     color: rgb(198, 202, 230);
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
 }
 
 .w_100{
@@ -91,6 +91,14 @@ nav{
     padding: 4rem 0 0 0;
 }   
 
+.pb_2{
+    padding-bottom: 2rem;
+}
+
+.pb_4{
+    padding-bottom: 4rem;
+}
+
 .margin_x_1{
     margin: 0 1rem;
 }
@@ -121,6 +129,10 @@ nav{
 
 .mb_4{
     margin-bottom: 4rem;
+}
+
+.mb_2{
+    margin-bottom: 2rem;
 }
 
 .mt_4{
