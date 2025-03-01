@@ -103,6 +103,18 @@ nav{
     margin: 0 1rem;
 }
 
+.margin_x_2{
+    margin: 0 2rem;
+}
+
+.margin_x_3{
+    margin: 0 3rem;
+}
+
+.margin_x_4{
+    margin: 0 4rem;
+}
+
 .little_margin{
     margin: 0.2rem 0;
 }
@@ -250,6 +262,10 @@ main{
     border: 1px solid #03131C;
 }
 
+.border_rounded{
+    border-radius: 1.5rem;
+}
+
 .shadow_1{
     box-shadow: 0px 1px 1px 0px #000;
 }
@@ -265,7 +281,7 @@ main{
     margin-left: 5px;
     content: "";
     border: 1px solid rgb(198, 202, 230);
-    animation: blink infinite 0.8s;
+    animation: blink infinite 1s;
 }
 
 .full_width{
