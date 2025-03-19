@@ -266,8 +266,18 @@ main{
     border-radius: 1.5rem;
 }
 
+.border_circle{
+    border-radius: 50%;
+}
+
 .shadow_1{
     box-shadow: 0px 1px 1px 0px #000;
+}
+
+.profile_img{
+    height: 50vh;
+    width: 25VW;
+    animation: bounce 2s infinite;
 }
 
 .testing_width{
@@ -383,4 +393,16 @@ main{
         width: 100%;
     }
     
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    60% {
+        transform: translateY(-15px);
+    }
 }
